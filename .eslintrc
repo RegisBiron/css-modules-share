@@ -1,0 +1,32 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+
+  "plugins": [
+    "react"
+  ],
+
+  "extends": [
+    "standard-jsx"
+  ],
+
+  "rules": {
+    "react/jsx-no-bind": ["error", {
+      "allowArrowFunctions": true,
+      "allowBind": true,
+      "ignoreRefs": true
+    }],
+    "arrow-body-style": ["error", "as-needed", { "requireReturnForObjectLiteral": true }],
+    "react/no-did-update-set-state": "error",
+    "react/no-unknown-property": "error",
+    "react/no-unused-prop-types": "error",
+    "react/prop-types": "error",
+    "react/react-in-jsx-scope": "error"
+  }
+}

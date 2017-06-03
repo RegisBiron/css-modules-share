@@ -1,0 +1,20 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	"syntax_override": {
+    "\\.css$": ["Syntax Highlighting for PostCSS", "Syntaxes", "PostCSS"],
+    "\\.js$": ["Babel", "JavaScript (Babel)"]
+  },
+  "SublimeLinter":
+    {
+      "linters": {
+        "jshint": {
+          "@disable": true
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+@import "normalize.css";
+
+:global {
+	*, :after, :before {
+  	box-sizing: border-box;
+	}
+
+	body {
+		-moz-font-feature-settings: "liga" on;
+	  -webkit-font-smoothing: antialiased;
+	  -moz-osx-font-smoothing: grayscale;
+	  text-rendering: optimizeSpeed;
+	}
+}
+
+.wrapper {
+	width: 100%;
+	padding: 36px;
+	position: relative;
+}
