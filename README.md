@@ -23,7 +23,7 @@ This is the supplementary repository for my css modules share.
 - [css modules docs](https://github.com/css-modules/css-modules)
 - This repo uses React and in order for React / Webpack to interpolate your styles use the following pattern
 
-```
+```js
 @import styles from './styles.css';
 
 <p className={styles.summaryText}>Lorem ipsum dolor sit amet...</p>
@@ -40,7 +40,7 @@ This is the supplementary repository for my css modules share.
 
 - Locate the postcss.config.js file in the root directory
 
-```
+```js
 module.exports = {
   plugins: [
     require('autoprefixer'),
