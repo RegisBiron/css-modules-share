@@ -1,0 +1,19 @@
+# CSS Modules Share
+
+This is the supplementary repository for my css modules share.
+
+## Setup Prerequisites
+
+- [nvm](https://github.com/creationix/nvm)
+  - can be installed following [these instructions](https://github.com/creationix/nvm#installation)
+- [yarn](https://yarnpkg.com/docs/install)
+  - can be installed with homebrew: `brew install yarn`
+  - optionally installed with npm: `npm install yarn --g`
+- [node](https://nodejs.org/en/) - not necessary if you're running nvm.
+
+## Setup Instructions
+
+- clone this repo
+- `nvm use`
+- `yarn install`
+- `npm run start` - Starts the `webpack-dev-server` and uses `react-hot-loader` for HMR
