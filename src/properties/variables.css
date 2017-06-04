@@ -1,0 +1,7 @@
+:root {
+	--z-index-1: 5;
+	--z-index-2: 10;
+	--z-index-3: 15;
+
+	--font-sans: 'Helvetica', 'Arial', sans-serif;
+}

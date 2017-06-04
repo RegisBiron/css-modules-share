@@ -1,0 +1,11 @@
+/* Orientation */
+@custom-media --portrait (orientation: portrait);
+@custom-media --landscape (orientation: landscape);
+
+/* Breakpoints */
+@custom-media --small (min-width: 400px);
+@custom-media --medium (min-width: 600px);
+@custom-media --medium-large (min-width: 768px);
+@custom-media --large (min-width: 1024px);
+@custom-media --extra-large (min-width: 1280px);
+@custom-media --wide (min-width: 1400px);

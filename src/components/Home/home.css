@@ -1,3 +1,10 @@
+/* CSS Custom Properties Example */
+@import '../../properties/layout.css';
+@import '../../properties/colors.css';
+@import '../../properties/variables.css';
+
 .content {
-	background: green;
+	@apply --content;
+	background: var(--color-pink);
+	font-family: var(--font-sans);
 }

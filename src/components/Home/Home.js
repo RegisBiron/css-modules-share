@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+// These styles use CSS Custom Properties
+// located in the properties folder
 import styles from './home.css';
 
 class Home extends Component {

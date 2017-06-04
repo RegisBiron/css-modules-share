@@ -1,16 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
+// These styles use CSS Custom Properties
+// located in the properties folder
 import styles from './navbar.css';
 
 function NavBar({ props }) {
 	return (
 		<ul className={styles.list}>
 			<li className={styles.listItem}>
-				<Link to="/">Home</Link>
+				<NavLink className={styles.link} exact activeClassName={styles.active} to="/">Home</NavLink>
 			</li>
 			<li className={styles.listItem}>
-				<Link to="/about">About</Link>
+				<NavLink className={styles.link} activeClassName={styles.active} to="/about">About</NavLink>
 			</li>
 		</ul>
 	);

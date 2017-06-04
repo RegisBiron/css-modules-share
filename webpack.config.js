@@ -3,7 +3,7 @@ const path = require('path');
 
 const postcss = require('postcss');
 
-const port = 8080;
+const port = 3000;
 
 module.exports = {
 	context: __dirname,
@@ -30,31 +30,29 @@ module.exports = {
   },
 	module: {
 		rules: [
-			{
-        test: /\.js$/,
-        exclude: /node_modules/,
-        use: ['babel-loader']
-      },
-      {
-			 test: /\.css$/,
-			 use: [ 'style-loader',
-			   {
-			     loader: 'css-loader',
-			     options: {
-			       modules: true,
-			       localIdentName: '[name]__[local]___[hash:base64:5]'
-			     }
-			   }, {
-			   	loader: 'postcss-loader',
-			   	options: {
-			   		config: {
-			   			path: path.join(__dirname, './postcss.config.js')
-			   		}
-			   	}
-			   }
-			 ]
-			}
-		]
+		{
+      test: /\.js$/,
+      exclude: /node_modules/,
+      use: ['babel-loader']
+    },
+    {
+		 test: /\.css$/,
+		 use: [ 'style-loader',
+		   {
+		     loader: 'css-loader',
+		     options: {
+		       modules: true,
+		       localIdentName: '[name]__[local]___[hash:base64:5]'
+		     }
+		   }, {
+		   	loader: 'postcss-loader',
+		   	options: {
+		   		config: {
+		   			path: path.join(__dirname, './postcss.config.js')
+		   		}
+		    }
+		  }]
+		}]
 	},
   plugins: [
     new webpack.HotModuleReplacementPlugin()
