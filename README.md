@@ -28,6 +28,14 @@ This is the supplementary repository for my css modules share.
 
 <p className={styles.summaryText}>Lorem ipsum dolor sit amet...</p>
 ```
+```css
+/* styles.css */
+.summaryText {
+  font-size: 1rem;
+  color: blue;
+}
+```
+
 - The official CSS Modules docs suggests to use camelCase for [naming](https://github.com/css-modules/css-modules#naming).
 
 ## About PostCSS
