@@ -9,7 +9,6 @@ This is the supplementary repository for my css modules share.
 - [yarn](https://yarnpkg.com/docs/install)
   - can be installed with homebrew: `brew install yarn`
   - optionally installed with npm: `npm install yarn --g`
-- [node](https://nodejs.org/en/) - not necessary if you're running nvm.
 
 ## Setup Instructions
 
