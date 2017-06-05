@@ -6,7 +6,7 @@ const postcss = require('postcss');
 const port = 3000;
 
 module.exports = {
-  context: __dirname,
+  //context: __dirname,
   devtool: 'inline-source-map',
   entry: [
   'react-hot-loader/patch',
@@ -15,7 +15,7 @@ module.exports = {
   path.join(__dirname, 'src', 'index.js'),
   ],
   output: {
-    path: __dirname,
+    path: path.join(__dirname, 'build'),
     filename: '[name].bundle.js',
     publicPath: `http://localhost:${port}/`
   },
