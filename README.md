@@ -21,7 +21,7 @@ This is the supplementary repository for my css modules share.
 ## About CSS Modules
 
 - [css modules docs](https://github.com/css-modules/css-modules)
-- This repo uses React and in order for React / Webpack to interpolate your styles use the following pattern
+- This repo uses React and in order for React / Webpack CSS Loader to interpolate your styles use the following pattern
 
 ```js
 @import styles from './styles.css';
