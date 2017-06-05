@@ -30,6 +30,7 @@ This is the supplementary repository for my css modules share.
 ```
 ```css
 /* styles.css */
+
 .summaryText {
   font-size: 1rem;
   color: blue;
