@@ -23,7 +23,7 @@ This is the supplementary repository for my css modules share.
 - This repo uses React and in order for React / Webpack CSS Loader to interpolate your styles use the following pattern
 
 ```js
-@import styles from './styles.css';
+import styles from './styles.css';
 
 <p className={styles.summaryText}>Lorem ipsum dolor sit amet...</p>
 ```
