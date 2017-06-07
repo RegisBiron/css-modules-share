@@ -6,7 +6,7 @@ const postcss = require('postcss');
 const port = 3000;
 
 module.exports = {
-  //context: __dirname,
+  context: __dirname,
   devtool: 'inline-source-map',
   entry: [
   'react-hot-loader/patch',
