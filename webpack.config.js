@@ -1,18 +1,16 @@
 const webpack = require('webpack');
 const path = require('path');
 
-const postcss = require('postcss');
-
 const port = 3000;
 
 module.exports = {
   context: __dirname,
   devtool: 'inline-source-map',
   entry: [
-  'react-hot-loader/patch',
-  `webpack-dev-server/client?http://localhost:${port}`,
-  'webpack/hot/only-dev-server',
-  path.join(__dirname, 'src', 'index.js'),
+    'react-hot-loader/patch',
+    `webpack-dev-server/client?http://localhost:${port}`,
+    'webpack/hot/only-dev-server',
+    path.join(__dirname, 'src', 'index.js'),
   ],
   output: {
     path: path.join(__dirname, 'build'),
@@ -59,6 +57,6 @@ module.exports = {
     }]
   },
   plugins: [
-  new webpack.HotModuleReplacementPlugin()
+    new webpack.HotModuleReplacementPlugin()
   ]
 }
