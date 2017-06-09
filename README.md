@@ -36,7 +36,7 @@ import styles from './styles.css';
 }
 ```
 
-- The official CSS Modules docs suggests to use camelCase for [naming](https://github.com/css-modules/css-modules#naming).
+- The official CSS Modules docs suggest to use camelCase for [naming](https://github.com/css-modules/css-modules#naming).
 
 ## About PostCSS
 
