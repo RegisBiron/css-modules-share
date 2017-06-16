@@ -1,3 +1,6 @@
+@value blue from "../../values/color.css";
+
 .content {
+  composes: content from '../../values/layout.css';
 	background: blue;
 }
